@@ -12,7 +12,7 @@ These are fields that extend the `Item` object
 
 | element             | type info                 | name                    | description                                                                                 | 
 |----------------------|---------------------------|-------------------------|---------------------------------------------------------------------------------------------| 
-| eo:gsd* | float | Ground Sample distance | The nominal distance between pixel centers available, in meters |
+| eo:resolution* | dict | Resolution or Ground Sample distance | The nominal distance between pixel centers available |
 | eo:platform*            | string                      | Unique name of platform | Specific name of the platform (e.g., landsat-8, sentinel-2A, larrysdrone) | 
 | eo:instrument*        | string                      | Instrument used     | Name of instrument or sensor (e.g., MODIS, ASTER, OLI, Canon F-1) |
 | eo:bands*  | dictionary    | Band Info | Band specific metadata (see below)
